@@ -10,11 +10,11 @@ shinyUI(pageWithSidebar(
     mainPanel(
         h3('Results of prediction'),
         h4('Transmission Type'),
-        verbatimTextOutput("var1"),
+        verbatimTextOutput("id1"),
         h4('Weight 1000lb'),
-        verbatimTextOutput("var2"),
+        verbatimTextOutput("id2"),
         h4('Acceleration Speed'),
-        verbatimTextOutput("var3"),
+        verbatimTextOutput("id3"),
         h4('Predicted MPG'),
         verbatimTextOutput("prediction")
         )
