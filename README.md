@@ -20,3 +20,6 @@ This model explains 84% of the variance in miles per gallon.
 
 To use the app to predict your car's MPG, you need to input the transmission type, weight and accelaration speed, the app will show the predicted MPG after you click the submit button.
 
+Notes:
+For Weight 1000lb: min=1, max=6, step=0.5
+For Acceleration Speed (1/4 mile time): min=14.50, max=22.90, setp=1.00
